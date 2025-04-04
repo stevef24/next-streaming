@@ -1,7 +1,7 @@
 import { getProducts } from "@/lib/getCards";
 
 import InfoCard from "@/components/demo/InfoCard";
-const Dashboard = async () => {
+const DisplayCards = async () => {
 	const cards = await getProducts();
 	const cardsWithData = await Promise.all(cards);
 
@@ -16,4 +16,4 @@ const Dashboard = async () => {
 	);
 };
 
-export default Dashboard;
+export default DisplayCards;
