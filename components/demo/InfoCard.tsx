@@ -37,7 +37,7 @@ export default function InfoCard({
 	const IconComponent = productIcons[name] || Smartphone; // Fallback to Smartphone if not found
 
 	return (
-		<Card className="w-full h-full hover:cursor-pointer hover:shadow-md transition-all duration-200">
+		<Card className="w-full  hover:cursor-pointer hover:shadow-md transition-all duration-200">
 			<CardHeader className="flex flex-row items-center justify-between pb-2">
 				<div className="text-xl font-medium">{name}</div>
 				<Button
