@@ -34,7 +34,7 @@ export default function InfoCard({
 	price: number;
 }) {
 	const [liked, setLiked] = useState(false);
-	const IconComponent = productIcons[name] || Smartphone; // Fallback to Smartphone if not found
+	const IconComponent = productIcons[name] || Smartphone;
 
 	return (
 		<Card className="w-full  hover:cursor-pointer hover:shadow-md transition-all duration-200">
